@@ -1,0 +1,75 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #181818;
+	color: white;
+}
+
+header#boas-vindas {
+	width: 94%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+    background: #333;
+    border-radius: 4px;
+}
+
+div.espaco {
+	padding: 5px;
+}
+
+div.titulo {
+	background-color: #333;
+}
+
+header#boas-vindas p#bemv {
+	color: rgb(121, 50, 210);
+    font: 1.25rem/1.25rem Nunito, sans-serif;
+    font-weight: bold;
+}
+
+header#boas-vindas p {
+	color: white;
+    font: 1.00rem/1.25rem Nunito, sans-serif;
+    text-indent: 5px;
+    padding: 2px;
+}
+
+header#boas-vindas a {
+    color: rgb(243, 46, 89);
+    text-decoration: underline;
+}
+
+section#destaques {
+	width: 94%;
+	margin: auto;
+	margin-bottom: 25px;
+    background: #1c1c1c;
+    border-radius: 4px;
+}
+
+section#destaques h1 {
+	font: 1.25rem/1.25rem Nunito, sans-serif;
+	color: white;
+	text-indent: 5px;
+    padding: 2px;
+}
+
+.anime {
+	width: 143px;
+	margin: 10px;
+}
+
+.anime img {
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.anime span {
+	color: white;
+    font: 1.00rem/1.25rem Nunito, sans-serif;
+    text-align: center;
+}
