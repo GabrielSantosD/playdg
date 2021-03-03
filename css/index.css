@@ -22,7 +22,7 @@ div.espaco {
 }
 
 div.titulo {
-	background-color: #333;
+	background-color: #555;
 }
 
 header#boas-vindas p#bemv {
@@ -59,17 +59,44 @@ section#destaques h1 {
 }
 
 .anime {
-	width: 143px;
 	margin: 10px;
+	margin-bottom: 0px;
 }
 
 .anime img {
-	max-width: 100%;
 	border-radius: 4px;
+	margin: 3px;
+	margin-bottom: 0px;
+}
+
+.anime img:hover {
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .anime span {
 	color: white;
     font: 1.00rem/1.25rem Nunito, sans-serif;
     text-align: center;
+}
+
+#nomes {
+	margin-top: 0px;
+	display: flex;
+	color: white;
+    font: 1.00rem/1.25rem Nunito, sans-serif;
+}
+
+#nt {
+	margin-left: 15px;
+}
+
+#op {
+	margin-left: 50px;
+}
+
+#tyn {
+	margin-left: 60px;
+	width: 143px;
 }
