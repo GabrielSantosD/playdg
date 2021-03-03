@@ -84,6 +84,10 @@ section#destaques h1 {
 	div#nomes {
 		display: none;
 	}
+
+	section#destaques h1 {
+		font: 1.00rem/1.25rem Nunito, sans-serif;
+	}
 }
 
 .anime span {
