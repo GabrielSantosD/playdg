@@ -1,0 +1,74 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #181818;
+	color: white;
+}
+
+div#sinopse {
+ 	width: 94%;
+ 	margin: auto;
+	border-radius: 0px;
+}
+
+div#back {
+	padding-top: 1px;
+	background-repeat: no-repeat;
+}
+
+div#sinopse img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  border: 2px solid black;
+}
+
+div#sinopse section#sin {
+  border-radius: 3px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  background: #333;
+  margin-bottom: 20px;
+}
+
+div#sinopse section#sin h2 {
+  font: 1.85rem/1.25rem Nunito, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 85%;
+  margin: auto;
+}
+
+div#sinopse section#sin p#info {
+  color: rgb(121, 50, 210);
+  font: 1.25rem/1.55rem Nunito, sans-serif;
+  font-weight: bold;
+  text-indent: 0px;
+  text-align: center;
+}
+
+div#sinopse section#sin p {
+  text-indent: 10px;
+  padding: 10px;
+  color: white;
+  font: 1.00rem/1.25rem Nunito, sans-serif;
+}
+
+div#sinopse section#sin span {
+  color: rgb(121, 50, 210);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+}

@@ -15,6 +15,8 @@ header#boas-vindas {
 	margin-bottom: 25px;
     background: #333;
     border-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 div.espaco {
@@ -52,32 +54,32 @@ section#destaques {
 }
 
 section#destaques h1 {
-	font: 1.25rem/1.25rem Nunito, sans-serif;
+	font: 1.15rem/1.25rem Nunito, sans-serif;
 	color: white;
 	text-indent: 5px;
     padding: 2px;
 }
 
-.anime {
+.animes {
 	margin: 10px;
 	margin-bottom: 0px;
 }
 
-.anime img {
+.animes img {
 	max-width: 100%;
 	border-radius: 4px;
 	margin: 3px;
 	margin-bottom: 0px;
 }
 
-.anime img:hover {
+.animes img:hover {
 	-moz-transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
 
 @media screen and (max-width: 980px) {
-	.anime img {
+	.animes img {
 		width: 30%;
 	}
 
@@ -88,12 +90,6 @@ section#destaques h1 {
 	section#destaques h1 {
 		font: 1.00rem/1.25rem Nunito, sans-serif;
 	}
-}
-
-.anime span {
-	color: white;
-    font: 1.00rem/1.25rem Nunito, sans-serif;
-    text-align: center;
 }
 
 #nomes {
